@@ -96,7 +96,7 @@ def check_volume_spike(data, threshold=20):
 
 def fetch_news(symbol):
     try:
-        url = f"https://newsapi.org/v2/everything?q={symbol}&apiKey=your_actual_newsapi_key"
+        url = f"https://newsapi.org/v2/everything?q={symbol}&apiKey=762424e0828643cca4d7247f51f97071"
         response = requests.get(url)
         articles = response.json().get("articles", [])
         return articles[:5]  # Return raw news articles for sentiment analysis
