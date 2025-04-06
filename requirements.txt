@@ -1,5 +1,13 @@
 streamlit
+yfinance
 pandas
-numpy
+ta-lib
+plotly
 requests
-beautifulsoup4
+smtplib
+email
+scikit-learn
+transformers
+torch
+textblob
+matplotlib
